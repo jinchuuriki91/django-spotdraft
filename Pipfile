@@ -4,17 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
+Django = "*"
 psycopg2 = "*"
 gunicorn = "*"
 django-cors-headers = "*"
 djangorestframework = "*"
 envparse = "*"
 dj-database-url = "*"
+jedi = "==0.17.2"
 
 [dev-packages]
-ipython = "*"
 flake8 = "*"
+ipython = "==7.19.0"
 
 [requires]
 python_version = "3.8"
