@@ -12,6 +12,7 @@ djangorestframework = "*"
 envparse = "*"
 dj-database-url = "*"
 jedi = "==0.17.2"
+django-heroku = "*"
 
 [dev-packages]
 flake8 = "*"
