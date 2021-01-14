@@ -8,14 +8,6 @@ class Student(models.Model):
     def __str__(self):
         return '<Name: {}>'.format(self.name)
 
-    @property
-    def course(self):
-        return self.participants_set.all()
-
-    @property
-    def course_count(self):
-        return len(self.course)
-
 
 class Course(models.Model):
 
